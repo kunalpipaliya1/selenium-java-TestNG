@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>TestNG_case</groupId>
+  <artifactId>TestNG_case</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <!-- Properties for Java version -->
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source> <!-- Java source version -->
+    <maven.compiler.target>17</maven.compiler.target> <!-- Java target version -->
+  </properties>
+
+  <!-- Dependencies -->
+  <dependencies>
+    <!-- TestNG Dependency for running tests -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.4.0</version> <!-- Latest stable version -->
+      <scope>test</scope>
+    </dependency>
+
+    <!-- SLF4J Logging API -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.32</version> <!-- Latest version of SLF4J API -->
+    </dependency>
+    
+    <!-- SLF4J Simple Logging Implementation -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.32</version> <!-- Latest version of SLF4J Simple -->
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Maven Compiler Plugin for compiling Java code -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.10.1</version> <!-- Updated to the latest version -->
+        <configuration>
+          <source>17</source> <!-- Source code version -->
+          <target>17</target> <!-- Target code version -->
+        </configuration>
+      </plugin>
+
+      <!-- Maven Surefire Plugin to run the tests -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+		<version>2.22.2</version>
+        <configuration>
+          <!-- Specify the TestNG suite XML file -->
+          <suiteXmlFiles>
+            <!-- Use relative path for portability -->
+            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> <!-- Update this path as necessary -->
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

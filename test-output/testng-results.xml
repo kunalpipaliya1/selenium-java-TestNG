@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-21T17:48:07 IST" name="Suite" finished-at="2025-05-21T17:48:07 IST" duration-ms="67">
+    <groups>
+    </groups>
+    <test started-at="2025-05-21T17:48:07 IST" name="Test" finished-at="2025-05-21T17:48:07 IST" duration-ms="67">
+      <class name="Testcase1">
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Beforeclass" finished-at="2025-05-21T17:48:07 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method is-config="true" signature="Beforemethod()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Beforemethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method signature="Test100()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Test100" finished-at="2025-05-21T17:48:07 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test100 -->
+        <test-method is-config="true" signature="Aftermethod()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Aftermethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method signature="Test200()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Test200" finished-at="2025-05-21T17:48:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test200 -->
+        <test-method is-config="true" signature="Beforemethod()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Beforemethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method is-config="true" signature="Aftermethod()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Aftermethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method signature="Test300()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Test300" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test300 -->
+        <test-method is-config="true" signature="Beforemethod()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Beforemethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method is-config="true" signature="Aftermethod()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Aftermethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Testcase1@4f18837a]" started-at="2025-05-21T17:48:07 IST" name="Afterclass" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- Testcase1 -->
+      <class name="Testcase2">
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Beforeclass" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method is-config="true" signature="Beforemethod()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Beforemethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method signature="Test400()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Test400" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test400 -->
+        <test-method is-config="true" signature="Aftermethod()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Aftermethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method is-config="true" signature="Beforemethod()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Beforemethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method signature="Test500()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Test500" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test500 -->
+        <test-method is-config="true" signature="Aftermethod()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Aftermethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method is-config="true" signature="Beforemethod()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Beforemethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method signature="Test600()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Test600" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test600 -->
+        <test-method is-config="true" signature="Aftermethod()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Aftermethod" finished-at="2025-05-21T17:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Testcase2@4fb0f2b9]" started-at="2025-05-21T17:48:07 IST" name="Afterclass" finished-at="2025-05-21T17:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- Testcase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
